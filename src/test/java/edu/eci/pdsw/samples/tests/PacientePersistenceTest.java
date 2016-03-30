@@ -76,7 +76,7 @@ public class PacientePersistenceTest {
             
             //IMPLEMENTACION DE LAS PRUEBAS
             DaoPaciente a=daof.getDaoPaciente();
-            Paciente paciente=new Paciente(777,"CC","Martin no subir",Date.valueOf("2005-08-15"));
+            Paciente paciente=new Paciente(8888,"CE","Martin no subir",Date.valueOf("2005-08-15"));
             Consulta unaConsulta=new Consulta(Date.valueOf("2016-03-03"),"Martin lo subio");
             Consulta otraConsulta=new Consulta(Date.valueOf("2015-10-10"),"Ahora carlos lo subio");
             Set<Consulta> setConsultas=new HashSet<Consulta>();
