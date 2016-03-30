@@ -76,7 +76,7 @@ public class PacientePersistenceTest {
             
             //IMPLEMENTACION DE LAS PRUEBAS
             DaoPaciente a=daof.getDaoPaciente();
-            Paciente paciente=new Paciente(500,"CC","Martin no subir",Date.valueOf("2005-08-15"));
+            Paciente paciente=new Paciente(777,"CC","Martin no subir",Date.valueOf("2005-08-15"));
             Consulta unaConsulta=new Consulta(Date.valueOf("2016-03-03"),"Martin lo subio");
             Consulta otraConsulta=new Consulta(Date.valueOf("2015-10-10"),"Ahora carlos lo subio");
             Set<Consulta> setConsultas=new HashSet<Consulta>();
@@ -116,7 +116,7 @@ public class PacientePersistenceTest {
             
             //IMPLEMENTACION DE LAS PRUEBAS
             DaoPaciente a=daof.getDaoPaciente();
-            Paciente paciente=new Paciente(100,"CE","Casvad",Date.valueOf("2000-08-15"));
+            Paciente paciente=new Paciente(125,"CE","Casvad",Date.valueOf("2000-08-15"));
 
             a.save(paciente);
             
@@ -145,7 +145,7 @@ public class PacientePersistenceTest {
         try{
             daof.beginSession();
             DaoPaciente persistenciaPaciente=daof.getDaoPaciente();
-            Paciente unPaciente=new Paciente(3,"CC","Isabel Marin",Date.valueOf("1990-08-15"));
+            Paciente unPaciente=new Paciente(747,"CC","Isabel Marin",Date.valueOf("1990-08-15"));
             Consulta unaConsulta=new Consulta(Date.valueOf("2016-03-03"),"Golpe en la cabeza por desmayo");
             Set<Consulta> setConsultas=new HashSet<Consulta>();
             setConsultas.add(unaConsulta);
@@ -180,7 +180,7 @@ public class PacientePersistenceTest {
         try{
             daof.beginSession();
             DaoPaciente persistenciaPaciente=daof.getDaoPaciente();
-            Paciente unPaciente=new Paciente(400,"CC","Maria alejandra Gallego",Date.valueOf("1999-01-30"));
+            Paciente unPaciente=new Paciente(8788,"CC","Maria alejandra Gallego",Date.valueOf("1999-01-30"));
             Consulta unaConsulta=new Consulta(Date.valueOf("2016-01-26"),"Alergia a picadura de abeja");
             Consulta dosConsulta=new Consulta(Date.valueOf("2016-01-27"),"Revision picadura abeja");
             Consulta tresConsulta=new Consulta(Date.valueOf("2016-02-21"),"Revision efecto de los antinflamatorios");
